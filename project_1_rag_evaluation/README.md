@@ -228,7 +228,7 @@ rag-evaluation-benchmark/
 Requires Python 3.10+.
 
 ```bash
-git clone <your-fork-url>
+git clone https://github.com/kunalkirtak/ai-evaluation-lab/project_1_rag_evaluation
 cd rag-evaluation-benchmark
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
