@@ -1,0 +1,10 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+sentence-transformers>=2.2
+matplotlib>=3.7
+pytest>=7.4
+python-dotenv>=1.0
+
+# Optional, only needed if USE_LLM_GENERATION or USE_LLM_JUDGE is enabled:
+# google-generativeai>=0.5
