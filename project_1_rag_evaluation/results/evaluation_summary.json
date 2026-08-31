@@ -1,0 +1,16 @@
+{
+  "num_test_cases": 15,
+  "mean_precision_at_k": 0.2222222222222222,
+  "mean_recall_at_k": 0.5333333333333333,
+  "mean_mrr": 0.4222222222222223,
+  "mean_hit_rate_at_k": 0.5333333333333333,
+  "mean_answer_accuracy": 0.4552476599812508,
+  "mean_faithfulness": 1.0,
+  "mean_answer_relevance": 0.3500133852163951,
+  "mean_hallucination_rate": 0.0,
+  "mean_latency_seconds": 0.010074746666941742,
+  "median_latency_seconds": 0.0044559999951161,
+  "p95_latency_seconds": 0.02987756999937103,
+  "total_estimated_tokens": 3412,
+  "estimated_total_cost_usd": 0.0
+}
