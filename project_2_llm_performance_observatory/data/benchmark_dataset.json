@@ -1,0 +1,110 @@
+[
+  {
+    "id": "q001",
+    "question": "What is a transformer in the context of large language models?",
+    "reference_answer": "A transformer is a neural network architecture based on self-attention that processes sequences in parallel rather than step by step, allowing it to model relationships between all tokens in a sequence.",
+    "category": "conceptual"
+  },
+  {
+    "id": "q002",
+    "question": "What is retrieval-augmented generation (RAG)?",
+    "reference_answer": "RAG is a technique where a language model retrieves relevant documents from an external knowledge source and uses them as context to generate a more accurate and grounded answer.",
+    "category": "conceptual"
+  },
+  {
+    "id": "q003",
+    "question": "What is an embedding in machine learning?",
+    "reference_answer": "An embedding is a dense numerical vector representation of data, such as text or images, that captures semantic meaning so that similar items are located close together in vector space.",
+    "category": "factual"
+  },
+  {
+    "id": "q004",
+    "question": "What is the purpose of a vector database?",
+    "reference_answer": "A vector database stores embeddings and supports efficient similarity search, allowing systems to quickly find the most semantically relevant items to a given query vector.",
+    "category": "factual"
+  },
+  {
+    "id": "q005",
+    "question": "How does self-attention differ from recurrent processing in sequence models?",
+    "reference_answer": "Self-attention lets every token attend directly to every other token in a single step, capturing long-range dependencies in parallel, while recurrent models process tokens sequentially and can struggle with long-range dependencies.",
+    "category": "comparison"
+  },
+  {
+    "id": "q006",
+    "question": "What is the difference between fine-tuning and prompt engineering?",
+    "reference_answer": "Fine-tuning updates a model's weights on task-specific data to change its behavior permanently, while prompt engineering shapes the model's behavior at inference time through the input text without changing weights.",
+    "category": "comparison"
+  },
+  {
+    "id": "q007",
+    "question": "Why might a RAG system return an incorrect answer even with a correct retrieval step?",
+    "reference_answer": "Even if retrieval finds relevant documents, the generation model may misinterpret the context, hallucinate details not present in the retrieved text, or fail to properly synthesize information across multiple retrieved chunks.",
+    "category": "reasoning"
+  },
+  {
+    "id": "q008",
+    "question": "What are AI agents in the context of LLM applications?",
+    "reference_answer": "AI agents are systems that use a language model as a reasoning engine to plan, take actions such as calling tools or APIs, observe results, and iterate toward completing a goal, rather than producing a single one-shot response.",
+    "category": "conceptual"
+  },
+  {
+    "id": "q009",
+    "question": "What is a token in the context of language models?",
+    "reference_answer": "A token is a unit of text, such as a word, subword, or character sequence, that a language model processes as its basic input and output unit after tokenization.",
+    "category": "factual"
+  },
+  {
+    "id": "q010",
+    "question": "What is model latency and why does it matter for production LLM systems?",
+    "reference_answer": "Latency is the time taken for a model to produce a response after receiving a request. It matters because high latency degrades user experience and can make an application unusable for real-time or interactive workloads.",
+    "category": "technical"
+  },
+  {
+    "id": "q011",
+    "question": "What is the tradeoff between chunk size and retrieval quality in a RAG pipeline?",
+    "reference_answer": "Smaller chunks improve retrieval precision by isolating specific facts but can lose surrounding context, while larger chunks preserve context but may dilute relevance and introduce irrelevant information into the retrieved results.",
+    "category": "reasoning"
+  },
+  {
+    "id": "q012",
+    "question": "What does it mean for a language model to hallucinate?",
+    "reference_answer": "Hallucination refers to a language model generating text that is fluent and plausible-sounding but factually incorrect or not grounded in any real source or provided context.",
+    "category": "conceptual"
+  },
+  {
+    "id": "q013",
+    "question": "How does semantic similarity differ from exact keyword matching in search?",
+    "reference_answer": "Semantic similarity compares the meaning of text using vector representations, so it can match related concepts phrased differently, while keyword matching only finds results that share the exact same words as the query.",
+    "category": "comparison"
+  },
+  {
+    "id": "q014",
+    "question": "What is the role of a system prompt in an LLM application?",
+    "reference_answer": "A system prompt provides instructions, context, or constraints that establish the model's behavior, persona, or rules for an interaction, typically set by the application developer rather than the end user.",
+    "category": "factual"
+  },
+  {
+    "id": "q015",
+    "question": "Why is evaluating LLM output quality more difficult than evaluating traditional software output?",
+    "reference_answer": "LLM outputs are open-ended natural language rather than deterministic values, so there is often no single correct answer, and quality must be judged along multiple subjective dimensions like correctness, relevance, and coherence.",
+    "category": "reasoning"
+  },
+  {
+    "id": "q016",
+    "question": "What is the difference between input tokens and output tokens in cost accounting?",
+    "reference_answer": "Input tokens are the tokens sent to the model as the prompt and context, while output tokens are the tokens the model generates in its response; providers commonly price these two categories differently.",
+    "category": "technical"
+  },
+  {
+    "id": "q017",
+    "question": "What is Pareto efficiency in the context of comparing model configurations?",
+    "reference_answer": "A configuration is Pareto efficient if no other configuration is at least as good on every measured dimension, such as quality, latency, and cost, while being strictly better on at least one, meaning it cannot be improved on one metric without sacrificing another.",
+    "category": "conceptual"
+  },
+  {
+    "id": "q018",
+    "question": "Why might a smaller or cheaper model sometimes be the better production choice than the most capable model?",
+    "reference_answer": "If the smaller model meets the task's quality bar, it can offer materially lower latency and cost at scale, which often matters more for production economics and user experience than marginal gains in output quality from a larger model.",
+    "category": "reasoning"
+  }
+]
