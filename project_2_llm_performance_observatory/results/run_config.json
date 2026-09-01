@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-08-31T16:11:02.771712+00:00",
+  "mode": "LOCAL_SIMULATION",
+  "model_configurations": [
+    "local-balanced",
+    "local-fast-lowcost",
+    "local-highquality"
+  ],
+  "quality_threshold": 0.7,
+  "relevance_threshold": 0.6,
+  "scoring_weights": {
+    "quality": 0.5,
+    "reliability": 0.2,
+    "latency": 0.15,
+    "cost": 0.15
+  },
+  "pricing_assumption_note": "Pricing values are example/configurable benchmark assumptions.",
+  "default_input_cost_per_1m_tokens": 0.5,
+  "default_output_cost_per_1m_tokens": 1.5,
+  "random_seed": 42,
+  "dataset_path": "C:\\Users\\Lenovo\\Downloads\\build llm\\llm-performance-observatory\\data\\benchmark_dataset.json"
+}

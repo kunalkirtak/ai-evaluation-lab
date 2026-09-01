@@ -1,0 +1,81 @@
+{
+  "test_case_count": 18,
+  "provider_count": 3,
+  "run_duration_seconds": 24.8775,
+  "comparison": [
+    {
+      "model": "local-balanced",
+      "requests": 18,
+      "success_rate": 1.0,
+      "error_rate": 0.0,
+      "mean_quality": 0.5854,
+      "mean_relevance": 0.2207,
+      "mean_latency": 0.05193,
+      "median_latency": 0.05055,
+      "p95_latency": 0.05552,
+      "average_input_tokens": 11.11,
+      "average_output_tokens": 59.78,
+      "average_total_tokens": 70.89,
+      "total_cost": 0.001714,
+      "cost_per_request": 9.5e-05,
+      "cost_per_successful_answer": 9.5e-05,
+      "throughput": 0.7235,
+      "production_score": 0.6178
+    },
+    {
+      "model": "local-fast-lowcost",
+      "requests": 18,
+      "success_rate": 1.0,
+      "error_rate": 0.0,
+      "mean_quality": 0.5053,
+      "mean_relevance": 0.2394,
+      "mean_latency": 0.02547,
+      "median_latency": 0.02487,
+      "p95_latency": 0.02943,
+      "average_input_tokens": 11.11,
+      "average_output_tokens": 34.06,
+      "average_total_tokens": 45.17,
+      "total_cost": 0.000204,
+      "cost_per_request": 1.1e-05,
+      "cost_per_successful_answer": 1.1e-05,
+      "throughput": 0.7235,
+      "production_score": 0.7527
+    },
+    {
+      "model": "local-highquality",
+      "requests": 18,
+      "success_rate": 0.8889,
+      "error_rate": 0.1111,
+      "mean_quality": 0.6613,
+      "mean_relevance": 0.2181,
+      "mean_latency": 0.05077,
+      "median_latency": 0.05069,
+      "p95_latency": 0.05126,
+      "average_input_tokens": 11.11,
+      "average_output_tokens": 82.56,
+      "average_total_tokens": 93.67,
+      "total_cost": 0.009316,
+      "cost_per_request": 0.000518,
+      "cost_per_successful_answer": 0.000582,
+      "throughput": 0.7235,
+      "production_score": 0.515
+    }
+  ],
+  "pareto_efficient": [
+    "local-balanced",
+    "local-fast-lowcost",
+    "local-highquality"
+  ],
+  "recommendation": {
+    "best_quality": "local-highquality",
+    "fastest": "local-fast-lowcost",
+    "cheapest": "local-fast-lowcost",
+    "most_reliable": "local-balanced",
+    "best_balanced": "local-fast-lowcost",
+    "pareto_efficient": [
+      "local-balanced",
+      "local-fast-lowcost",
+      "local-highquality"
+    ]
+  }
+}
