@@ -1,0 +1,4 @@
+model,requests,success_rate,error_rate,mean_quality,mean_relevance,mean_latency,median_latency,p95_latency,average_input_tokens,average_output_tokens,average_total_tokens,total_cost,cost_per_request,cost_per_successful_answer,throughput,production_score
+local-balanced,18,1.0,0.0,0.5854,0.2207,0.05193,0.05055,0.05552,11.11,59.78,70.89,0.001714,9.5e-05,9.5e-05,0.7235,0.6178
+local-fast-lowcost,18,1.0,0.0,0.5053,0.2394,0.02547,0.02487,0.02943,11.11,34.06,45.17,0.000204,1.1e-05,1.1e-05,0.7235,0.7527
+local-highquality,18,0.8889,0.1111,0.6613,0.2181,0.05077,0.05069,0.05126,11.11,82.56,93.67,0.009316,0.000518,0.000582,0.7235,0.515
