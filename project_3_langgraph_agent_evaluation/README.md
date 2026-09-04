@@ -12,6 +12,37 @@ The router sends each input to **knowledge search**, a **calculator**, or a
 **direct** reply. The evaluator then scores the full run, not just the final
 text.
 
+## Project Structure
+```
+📁 langgraph-agent-evaluation/
+├── 📁 data
+│   └── 📄 dataset.json
+├── 📁 notebook
+│   └── 📄 langgraph_agent_evaluation.ipynb
+|
+├── 📁 screenshot  # screenshot while running project
+├── 📁 results
+│   ├── 📄 .gitkeep
+│   ├── 📄 error_analysis.csv
+│   ├── 📄 evaluation_results.csv
+│   ├── 📄 regression_comparison.csv
+│   └── 📄 regression_report.json
+├── 📁 src
+│   ├── 📁 __pycache__
+│   │   ├── 📄 agent.cpython-313.pyc
+│   │   ├── 📄 evaluator.cpython-313.pyc
+│   │   ├── 📄 metrics.cpython-313.pyc
+│   │   └── 📄 regression.cpython-313.pyc
+│   ├── 📄 agent.py
+│   ├── 📄 evaluator.py
+│   ├── 📄 metrics.py
+│   └── 📄 regression.py
+├── 📁 tests
+│   └── 📄 test_project.py
+├── 📄 README.md
+├── 📄 requirements.txt
+└── 📄 run_evaluation.py
+```
 ## Architecture
 run_evaluation.py # entry point
 src/agent.py # LangGraph agent (router, tools, answer)
