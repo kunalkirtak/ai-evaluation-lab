@@ -1,0 +1,86 @@
+[
+  {
+    "id": "case_001",
+    "input": "What is Retrieval-Augmented Generation (RAG) used for?",
+    "expected_tool": "knowledge",
+    "expected_path": ["router", "knowledge", "answer", "evaluate"],
+    "reference_answer": "Retrieval-Augmented Generation (RAG) combines a language model with an external document retriever to ground answers in real data."
+  },
+  {
+    "id": "case_002",
+    "input": "Can you explain what an embedding vector is used for?",
+    "expected_tool": "knowledge",
+    "expected_path": ["router", "knowledge", "answer", "evaluate"],
+    "reference_answer": "An embedding is a numeric vector representation of text that captures semantic meaning so similar texts have similar vectors."
+  },
+  {
+    "id": "case_003",
+    "input": "Why do AI systems sometimes hallucinate false information?",
+    "expected_tool": "knowledge",
+    "expected_path": ["router", "knowledge", "answer", "evaluate"],
+    "reference_answer": "Hallucination is when a language model generates confident but factually incorrect or unsupported information."
+  },
+  {
+    "id": "case_004",
+    "input": "What makes an AI agent different from a simple chatbot?",
+    "expected_tool": "knowledge",
+    "expected_path": ["router", "knowledge", "answer", "evaluate"],
+    "reference_answer": "An AI agent is a system that plans, chooses tools, and takes actions to achieve a goal, going beyond a single question-answer exchange."
+  },
+  {
+    "id": "case_005",
+    "input": "Calculate 15 + 27",
+    "expected_tool": "calculator",
+    "expected_path": ["router", "calculator", "answer", "evaluate"],
+    "reference_answer": "42"
+  },
+  {
+    "id": "case_006",
+    "input": "What is 144 / 12?",
+    "expected_tool": "calculator",
+    "expected_path": ["router", "calculator", "answer", "evaluate"],
+    "reference_answer": "12"
+  },
+  {
+    "id": "case_007",
+    "input": "Evaluate 12 * 8",
+    "expected_tool": "calculator",
+    "expected_path": ["router", "calculator", "answer", "evaluate"],
+    "reference_answer": "96"
+  },
+  {
+    "id": "case_008",
+    "input": "Evaluate 100 - 45",
+    "expected_tool": "calculator",
+    "expected_path": ["router", "calculator", "answer", "evaluate"],
+    "reference_answer": "55"
+  },
+  {
+    "id": "case_009",
+    "input": "Hello, how are you today?",
+    "expected_tool": "direct",
+    "expected_path": ["router", "direct", "answer", "evaluate"],
+    "reference_answer": "Hello! I'm a simple assistant here to help."
+  },
+  {
+    "id": "case_010",
+    "input": "What is your name?",
+    "expected_tool": "direct",
+    "expected_path": ["router", "direct", "answer", "evaluate"],
+    "reference_answer": "I don't have a personal name, I'm just an AI agent."
+  },
+  {
+    "id": "case_011",
+    "input": "Can you tell me a joke?",
+    "expected_tool": "direct",
+    "expected_path": ["router", "direct", "answer", "evaluate"],
+    "reference_answer": "I don't tell jokes, but I can search knowledge or do math."
+  },
+  {
+    "id": "case_012",
+    "input": "Thank you for your help today.",
+    "expected_tool": "direct",
+    "expected_path": ["router", "direct", "answer", "evaluate"],
+    "reference_answer": "You're welcome!"
+  }
+]
