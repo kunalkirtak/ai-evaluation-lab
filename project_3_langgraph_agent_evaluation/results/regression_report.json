@@ -1,0 +1,60 @@
+{
+  "status": "REGRESSION DETECTED",
+  "reason": "metric(s) dropped by more than 0.05: answer_correctness, tool_accuracy, trajectory_accuracy, reliability",
+  "max_drop_threshold": 0.05,
+  "v1_metrics": {
+    "answer_correctness": 1.0,
+    "tool_accuracy": 1.0,
+    "trajectory_accuracy": 1.0,
+    "reliability": 1.0,
+    "mean_latency": 0.0036704166666666673,
+    "median_latency": 0.0022385,
+    "p95_latency": 0.010475749999999997
+  },
+  "v2_metrics": {
+    "answer_correctness": 0.8333333333333334,
+    "tool_accuracy": 0.8333333333333334,
+    "trajectory_accuracy": 0.8333333333333334,
+    "reliability": 0.8333333333333334,
+    "mean_latency": 0.0024066666666666668,
+    "median_latency": 0.0023045,
+    "p95_latency": 0.0031098
+  },
+  "comparison": [
+    {
+      "metric": "answer_correctness",
+      "v1": 1.0,
+      "v2": 0.8333,
+      "delta": -0.1667,
+      "regressed": true
+    },
+    {
+      "metric": "tool_accuracy",
+      "v1": 1.0,
+      "v2": 0.8333,
+      "delta": -0.1667,
+      "regressed": true
+    },
+    {
+      "metric": "trajectory_accuracy",
+      "v1": 1.0,
+      "v2": 0.8333,
+      "delta": -0.1667,
+      "regressed": true
+    },
+    {
+      "metric": "reliability",
+      "v1": 1.0,
+      "v2": 0.8333,
+      "delta": -0.1667,
+      "regressed": true
+    },
+    {
+      "metric": "mean_latency",
+      "v1": 0.0037,
+      "v2": 0.0024,
+      "delta": -0.0013,
+      "regressed": false
+    }
+  ]
+}
