@@ -1,0 +1,3 @@
+agent_version,case_id,input,expected_tool,actual_tool,expected_path,actual_path,answer_score,latency,failure_reason
+v2,case_007,Evaluate 12 * 8,calculator,knowledge,router > calculator > answer > evaluate,router > knowledge > answer > evaluate,0.0,0.002387,wrong tool
+v2,case_008,Evaluate 100 - 45,calculator,knowledge,router > calculator > answer > evaluate,router > knowledge > answer > evaluate,0.0,0.002061,wrong tool

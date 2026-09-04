@@ -1,0 +1,6 @@
+metric,v1,v2,delta,regressed
+answer_correctness,1.0,0.8333,-0.1667,True
+tool_accuracy,1.0,0.8333,-0.1667,True
+trajectory_accuracy,1.0,0.8333,-0.1667,True
+reliability,1.0,0.8333,-0.1667,True
+mean_latency,0.0037,0.0024,-0.0013,False
